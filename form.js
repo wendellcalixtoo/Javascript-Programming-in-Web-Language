@@ -9,10 +9,10 @@ botaoAdicionar.addEventListener('click', function(event) {
 
   var erros = validaPaciente(paciente);
 
-  if(erros.length > 0){
-    exibeMensagensDeErros(erros);
-    return;
-  }
+  // if(erros.length > 0){
+  //   exibeMensagensDeErros(erros);
+  //   return;
+  // }
 
   var tabela = document.querySelector('#tabela-pacientes');
 

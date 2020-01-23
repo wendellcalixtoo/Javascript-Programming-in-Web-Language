@@ -10,7 +10,7 @@ for (var i = 0; i < pacientes.length; i++) {
   var tdImc = paciente.querySelector('.info-imc');
 
   var pesoValido = validaPeso(peso);
-  var alturaValida = validaAltura(altura(altura));
+  var alturaValida = validaAltura(altura);
 
   if (!pesoValido) {
     console.log('Peso inválido!');
