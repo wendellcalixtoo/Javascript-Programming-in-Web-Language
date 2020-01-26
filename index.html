@@ -14,17 +14,20 @@
 <body>
 
 	<header>
-		<div class="container">
+		<!-- <div class="container">
 			<h1>Aparecida Nutrição</h1>
-		</div>
+		</div> -->
+		<nav class="navbar navbar-light bg-dark">
+			<a class="navbar-brand text-white ml-5" href="#">Aparecida Nutrição</a> </nav>
 	</header>
 	<main>
 		<section class="container">
 			<h2>Meus pacientes</h2>
-			<label for="filtrar-tabela">Filtre:</label>
-			<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente">
-			<table>
-				<thead>
+			<label for="filtrar-tabela" class="lead">Filtre:</label>
+			<input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente"
+				class="input-group-text">
+			<table class="table">
+				<thead class="thead-dark">
 					<tr>
 						<th>Nome</th>
 						<th>Peso(kg)</th>
@@ -79,29 +82,30 @@
 
 		<section class="container">
 			<h2 id="titulo-form">Adicionar novo paciente</h2>
-			<ul id="mensagens-erro"></ul>
+			<ul id="mensagens-erro" class="alert alert-danger"></ul>
 			<form id="form-adiciona">
 				<div class="grupo">
-					<label for="nome">Nome:</label>
-					<input id="nome" name="nome" type="text" placeholder="Digite o nome do seu paciente" class="campo">
+					<label for="nome" class="lead">Nome:</label>
+					<input id="nome" name="nome" type="text" placeholder="Digite o nome do seu paciente"
+						class="campo input-group-text">
 				</div>
 				<div class="grupo">
-					<label for="peso">Peso:</label>
+					<label for="peso" class="lead">Peso:</label>
 					<input id="peso" name="peso" type="text" placeholder="Digite o peso do seu paciente"
-						class="campo campo-medio">
+						class="campo campo-medio input-group-text">
 				</div>
 				<div class="grupo">
-					<label for="altura">Altura:</label>
+					<label for="altura" class="lead">Altura:</label>
 					<input id="altura" name="altura" type="text" placeholder="Digite a altura do seu paciente"
-						class="campo campo-medio">
+						class="campo campo-medio input-group-text">
 				</div>
 				<div class="grupo">
-					<label for="gordura">% de Gordura:</label>
+					<label for="gordura" class="lead">% de Gordura:</label>
 					<input id="gordura" type="text" placeholder="Digite a porcentagem de gordura do seu paciente"
-						class="campo campo-medio">
+						class="campo campo-medio input-group-text">
 				</div>
 
-				<button id="adicionar-paciente" class="botao bto-principal">Adicionar</button>
+				<button id="adicionar-paciente" class="botao bto-principal btn btn-primary ml-5">Adicionar</button>
 			</form>
 		</section>
 	</main>
