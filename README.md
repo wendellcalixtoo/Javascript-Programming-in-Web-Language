@@ -6,6 +6,8 @@
 
 </h1>
 
+## :computer:[Aparecida Nutrição](https://wendellcalixtoo.github.io/Javascript-Programming-in-Web-Language/):computer:
+
 ## This project was developed at [Alura Cursos](https://www.alura.com.br/) and presents the following chapters:
 
 ## :star: Chapter 1: Introduction
