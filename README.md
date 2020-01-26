@@ -29,7 +29,6 @@
 - We saw how to manipulate styles with the .style property
 - We saw that we should use camelCase when we want to modify a property that has two words, like background-color
 - The good practice of not changing the style directly in Javascript, but modifying the element classes with the .classList property
--
 
 ## :star: Chapter 4: Events, Forms and Creating Elements
 
