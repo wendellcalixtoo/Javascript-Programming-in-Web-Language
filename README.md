@@ -53,7 +53,7 @@
 - The NOT (!) Negation operator
 - How to validate a form
 - The push function to place elements within an array
-- The innerHTML property of the elements, which was used to delete the <ul> items
+- The innerHTML property of the elements, which was used to delete the items
 - The forEach method for traversing arrays
 
 ## :star: Chapter 7: Removal, Delegation and Animation
