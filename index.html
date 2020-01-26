@@ -77,12 +77,13 @@
 					</tr>
 				</tbody>
 			</table>
-
+			<span id="erro-ajax" class="invisivel">Erro ao buscar os pacientes</span>
+			<button id="buscar-pacientes" class="botao bto-principal btn btn-primary">Buscar Pacientes</button>
 		</section>
 
 		<section class="container">
 			<h2 id="titulo-form">Adicionar novo paciente</h2>
-			<ul id="mensagens-erro" class="alert alert-danger"></ul>
+			<ul id="mensagens-erro"></ul>
 			<form id="form-adiciona">
 				<div class="grupo">
 					<label for="nome" class="lead">Nome:</label>
@@ -105,11 +106,12 @@
 						class="campo campo-medio input-group-text">
 				</div>
 
-				<button id="adicionar-paciente" class="botao bto-principal btn btn-primary ml-5">Adicionar</button>
+				<button id="adicionar-paciente" class="botao bto-principal btn btn-primary ml-3">Adicionar</button>
 			</form>
 		</section>
 	</main>
 	<script src="calcula-imc.js"></script>
+	<script src="buscar-pacientes.js"></script>
 	<script src="form.js"></script>
 	<script src="filtra.js"></script>
 	<script src="remover-paciente.js"></script>
